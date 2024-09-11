@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/ExampleTemplate.style.uss?fileID=7433441132597879392&amp;guid=5caa859f768ed4914858321682abd900&amp;type=3#ExampleTemplate.style" />
+    <ui:VisualElement style="flex-grow: 1;" />
+    <ui:VisualElement style="flex-grow: 1; flex-direction: row;">
+        <ui:VisualElement style="flex-grow: 1;">
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" tabindex="1" name="start-button" class="scene-button" />
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" tabindex="2" class="scene-button" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1;">
+            <ui:Slider picking-mode="Ignore" label="Slider" value="42" high-value="100" tabindex="3" class="scene-slider" />
+            <ui:Slider picking-mode="Ignore" label="Slider" value="42" high-value="100" tabindex="4" class="scene-slider" />
+            <ui:Slider picking-mode="Ignore" label="Slider" value="42" high-value="100" tabindex="5" class="scene-slider" />
+            <ui:Toggle label="Toggle" tabindex="6" class="scene-toggle" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" tabindex="7" class="scene-button" style="flex-direction: row;" />
+    </ui:VisualElement>
+</ui:UXML>

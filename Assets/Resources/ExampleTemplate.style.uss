@@ -1,0 +1,17 @@
+.scene-button:focus {
+    border-color: rgb(255, 200, 40);
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+.scene-toggle:focus {
+    border-color: rgb(255, 200, 40);
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+.scene-slider:focus {
+    border-color: rgb(255, 200, 40);
+    border-width: 2px;
+    border-radius: 10px;
+}
